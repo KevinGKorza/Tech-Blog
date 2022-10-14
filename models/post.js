@@ -22,7 +22,7 @@ Post.init({
         allowNull: false,
         references: 
         {
-            model: 'User',
+            model: 'user',
             key: 'id'
 
         }
@@ -34,7 +34,7 @@ Post.init({
         allowNull: false,
         references:
         {
-            model: 'User',
+            model: 'user',
             key: 'id'
         }
 
@@ -44,7 +44,7 @@ Post.init({
    timestamps: false,
    freezeTableName: true,
    underscored: true,
-   modelName: 'Post',
+   modelName: 'post',
 });
 
 model.exports = Post;

@@ -5,7 +5,7 @@ const editFormHandler = async (event) => {
     const text = document.querySelector('response').value.trim();
   
     if (postId && text) {
-      const response = await fetch('/delete', {
+      const response = await fetch('/api/delete', {
         method: 'PUT',
         body: JSON.stringify({ title, post }),
         headers: { 'Content-Type': 'application/json' },

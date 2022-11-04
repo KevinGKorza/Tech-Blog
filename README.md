@@ -48,7 +48,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 
 
-GitHub url:
+GitHub url: https://github.com/KevinGKorza/Tech-Blog
 
-Youtube video:
+Youtube video: https://youtu.be/D0iUvlkj-00
+
+
 
